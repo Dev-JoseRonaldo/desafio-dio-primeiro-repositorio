@@ -1,0 +1,8 @@
+git status : O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
+
+git add. : O comando git add adiciona uma alteração no diretório ativo à área de staging. Ele diz ao Git que você quer incluir atualizações a um arquivo específico no próximo commit. No entanto, git add não tem efeito real e significativo no repositório — as alterações não são gravadas mesmo até você executar git commit.
+
+git commit -m "expressao" : Uma vez que os arquivos estão lá basta você utilizar o comando ​“$ git commit” para salvar a “fotografia” do seu código. Uma vez que você executa este comando é gerado um commit com um código identificador único.
+
+git push origin main: O comando git push é usado para enviar o conteúdo do repositório local para um repositório remoto. O comando push transfere commits do repositório local a um repositório remoto.
+
